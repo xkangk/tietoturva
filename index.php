@@ -1,5 +1,5 @@
 <?php  
- $connect = mysqli_connect("localhost", "root", "", "n0jaka000");  
+ $connect = mysqli_connect("localhost", "root", "", "n0jaka00");  
  session_start();  
  if(isset($_SESSION["username"]))  
  {  

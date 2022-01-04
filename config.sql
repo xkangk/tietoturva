@@ -7,9 +7,7 @@ use n0jaka00;
 
 -- Luo käyttäjä-taulun
 CREATE TABLE IF NOT EXISTS kayttaja(
-        first_name varchar(50) NOT NULL,
-        last_name varchar(50) NOT NULL,
-        user_name varchar(50) NOT NULL,
+        username varchar(50) NOT NULL UNIQUE,
         password varchar(150) NOT NULL,
         PRIMARY KEY (username)
 );
